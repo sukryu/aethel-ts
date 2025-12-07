@@ -1,0 +1,30 @@
+# Source files (only dist should be published)
+src/
+benchmark/
+docs/
+
+# Build config
+tsconfig.json
+tsconfig.build.json
+build.mjs
+
+# Development files
+.gitignore
+.vscode/
+.idea/
+
+# Test files
+*.test.ts
+*.spec.ts
+coverage/
+
+# Misc
+*.log
+.DS_Store
+node_modules/
+
+# Keep these in the package
+!dist/
+!README.md
+!LICENSE
+!package.json
